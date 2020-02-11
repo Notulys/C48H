@@ -1,0 +1,79 @@
+a{
+    text-decoration: none !important;
+    color: white;
+    font-family: Montserrat;
+    font-weight:bold; 
+}
+a:hover{
+    text-decoration: none !important;
+    color: white;
+    font-family: Montserrat; 
+    font-weight:bold;
+}
+body{
+
+    height: auto;
+    width: auto;
+    font-family: Montserrat;
+   
+    
+}
+.cont{
+    z-index: 90;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.con{
+    width: 50%;
+    line-height: 40px;
+}
+.co{
+    width: 50%;
+    line-height: 40px;
+    text-align: right;
+
+}
+.c{
+    line-height: 40px;
+    padding-top: 70px;
+    height: 340px;
+    border-top: 1px solid black;
+
+}
+.container{
+    
+
+ background-color: transparent;
+}
+
+header {     
+    position: relative;     
+    display: block;     
+    height: 100px;
+    background: #2c3e50;
+    color: white; 
+}
+h1{
+    
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    font-weight:bold;
+
+}
+.button{
+    
+    left: 10.2%;
+    width: 74%;
+    position: absolute;
+    bottom: 30px;
+    background: #2c3e50;
+}

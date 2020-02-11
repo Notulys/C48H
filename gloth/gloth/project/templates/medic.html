@@ -1,0 +1,67 @@
+{% extends 'base.html' %} {% block content %}
+<header style="background:#ffffff; color:#2c3e50;">
+    <div class="container" id="maincontent" tabindex="-1">
+        <form id="loginform" class="form-horizontal" role="form">
+
+            <div class="row">
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="login-username" type="text" class="form-control" name="medecin" value="" placeholder="Nom & prénom du medecin">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="login-password" type="text" class="form-control" name="medecinID" placeholder="identifiant du medecin">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="login-password" type="text" class="form-control" name="medecinPhone" placeholder="Téléphone du médecin">
+                </div>
+            </div>
+
+            <br/>
+            <div class="row">
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="login-username" type="text" class="form-control" name="cabinet" value="" placeholder="Nom du cabinet">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="login-password" type="text" class="form-control" name="cabinetAddress" placeholder="Adresse du cabinet">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="login-password" type="text" class="form-control" name="cabinetCP" placeholder="Code postale">
+                </div>
+            </div>
+
+            <br/>
+            <div class="row">
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="login-username" type="text" class="form-control" name="patient" value="" placeholder="Nom & prénom du patient">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group col-md-6">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="login-password" type="text" class="form-control" name="patientAge" placeholder="age du patient">
+                </div>
+            </div>
+
+            <br/>
+            <div class="row">
+                <div style="margin-bottom: 25px" class="input-group col-md-12">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="login-username" type="textarea" rows="5" cols="33" class="form-control" name="prescription" value="" placeholder="Votre prescription">
+                </div>
+
+            </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</header>
+<!-- {% endblock%} -->
